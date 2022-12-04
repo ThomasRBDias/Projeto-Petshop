@@ -4,17 +4,18 @@
 }
 @media(max-width: 480px)
 {   
+    header{
+        width:1010px;
+    }
+
+    body{
+        font-size: smaller;
+    }
     .flex-conteiner{
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    
-    
-    }
-
-    header{
-        width:1010px;
+    text-align: center; 
     }
 
     .fundoverde{
@@ -35,6 +36,13 @@
     nav{
         width: 1010px;
     }
+
+    .texto-menor{
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+
 
 
 
